@@ -150,9 +150,24 @@ nav.sticky ul li a:hover {
 
 /* TYPES */
 
-.types_waves {
+#types {
+  min-height: 100vh;
+  background-image: url("../asset/background-header.jpg");
+  background-color: #000000c4;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+.types svg {
   position: relative;
-  bottom: 10px;
+  top: -10px;
+}
+
+.title-types p {
+  text-align: center;
+  color: #f1f1f1;
+  font-weight: 800;
+  font-size: 40px;
 }
 
 /* END TYPES */
@@ -297,4 +312,18 @@ nav.sticky ul li a:hover {
   #menuToggle input:checked ~ ul {
     transform: none;
   }
+
+  /* END NAVBAR */
+
+  /* Responsive EXPLAIN */
+
+  .explain p {
+    font-size: 15px;
+  }
+
+  /* EndResponsive EXPLAIN */
+
+  /* Responsive TYPES */
+
+  /* End Responsive TYPES */
 }

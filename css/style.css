@@ -12,16 +12,7 @@
   display: none;
 }
 
-.header {
-  background: url("../asset/background-header-2.jpg");
-  min-height: 720px;
-  background-size: 1500px;
-  background-position: center;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.863);
-  background-blend-mode: darken;
-}
+/* NAVBAR */
 
 nav {
   width: 100%;
@@ -91,6 +82,21 @@ nav.sticky ul li a:hover {
   font-size: 30px;
 }
 
+/* END NAVBAR */
+
+/* HEADER */
+
+.header {
+  background: url("../asset/background-header-2.jpg");
+  min-height: 720px;
+  background-size: 1500px;
+  background-position: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.863);
+  background-blend-mode: darken;
+}
+
 .header-text {
   display: flex;
   height: 400px;
@@ -110,6 +116,10 @@ nav.sticky ul li a:hover {
   position: relative;
   top: 10px;
 }
+
+/* END HEADER */
+
+/* EXPLAIN */
 
 .explanation {
   padding-top: 3rem;
@@ -135,6 +145,17 @@ nav.sticky ul li a:hover {
 .explain p {
   font-size: 20px;
 }
+
+/* END EXPLAIN */
+
+/* TYPES */
+
+.types_waves {
+  position: relative;
+  bottom: 10px;
+}
+
+/* END TYPES */
 
 @media (max-width: 820px) {
   .navbar {

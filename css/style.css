@@ -192,6 +192,7 @@ nav.sticky ul li a:hover {
 
 .wojak-card:hover {
   background-color: #f1f1f1e3;
+  transform: translateY(-10px);
 }
 
 .image-card {
@@ -215,8 +216,22 @@ nav.sticky ul li a:hover {
   transform: scale(0.9);
 }
 
+.explain-card {
+  padding: 10px;
+}
+
 .explain-card p:nth-child(1) {
+  padding: 10px 0;
   font-weight: 600;
+}
+
+.explain-card p:nth-child(2) {
+  font-size: 14px;
+}
+
+.button-card a {
+  padding: 10px;
+  color: #000000;
 }
 
 /* END TYPES */

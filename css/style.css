@@ -184,7 +184,7 @@ nav.sticky ul li a:hover {
 
 .wojak-card {
   width: 300px;
-  height: 500px;
+  height: 400px;
   background-color: #f1f1f1b4;
   transition: all 0.6s;
   border-radius: 1rem;
@@ -199,7 +199,8 @@ nav.sticky ul li a:hover {
   height: 200px;
   background-color: #f7f7f7;
   border-radius: 1rem;
-  border
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .image-card img {
@@ -212,6 +213,10 @@ nav.sticky ul li a:hover {
 
 .image-card img:hover {
   transform: scale(0.9);
+}
+
+.explain-card p:nth-child(1) {
+  font-weight: 600;
 }
 
 /* END TYPES */

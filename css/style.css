@@ -209,8 +209,9 @@ nav.sticky ul li a:hover {
 .flip-card-front p {
   font-weight: 800;
   color: #0e0e0e;
-  position: absolute;
   text-align: center;
+  width: 100%;
+  bottom: 5rem;
 }
 
 .flip-card:hover .flip-card-inner {

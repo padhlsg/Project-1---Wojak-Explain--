@@ -156,7 +156,7 @@ nav.sticky ul li a:hover {
   background-position-y: 100px;
   background-color: #000000d0;
   background-blend-mode: darken;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .types svg {

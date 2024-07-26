@@ -67,13 +67,12 @@ nav.sticky a {
   color: #ffffff;
 }
 
-
 #menuToggle {
   display: none;
 }
 
 #menuToggle #menu i {
-Q  font-size: 30px;
+  font-size: 30px;
 }
 
 /* END NAVBAR */

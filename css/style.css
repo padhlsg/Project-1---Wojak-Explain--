@@ -67,19 +67,13 @@ nav.sticky a {
   color: #ffffff;
 }
 
-nav.sticky ul li a:hover {
-  background-color: #fff;
-  border-radius: 10px;
-  color: #0e0e0e;
-  transform: scale(1.2);
-}
 
 #menuToggle {
   display: none;
 }
 
 #menuToggle #menu i {
-  font-size: 30px;
+Q  font-size: 30px;
 }
 
 /* END NAVBAR */
@@ -178,7 +172,7 @@ nav.sticky ul li a:hover {
 
 .types-wojak {
   padding-top: 3rem;
-  width: 85%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -191,7 +185,7 @@ nav.sticky ul li a:hover {
   background-color: #f1f1f1b4;
   transition: all 0.6s;
   border-radius: 1rem;
-  margin: 1rem 0;
+  margin: 2.1rem 0rem;
 }
 
 .wojak-card:hover {

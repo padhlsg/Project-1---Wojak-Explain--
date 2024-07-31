@@ -114,8 +114,11 @@ nav.sticky a {
 
 /* EXPLAIN */
 
+#explanation {
+  padding-top: 6rem;
+}
+
 .explanation {
-  padding-top: 3rem;
   min-height: 450px;
   background-color: #f1f1f1;
 }
@@ -144,7 +147,7 @@ nav.sticky a {
 /* TYPES */
 
 #types {
-  min-height: 1000px;
+  padding-bottom: 5rem;
   background-image: url("../asset/background-types-2.jpg");
   background-position-y: 100px;
   background-color: #000000d0;
